@@ -4,12 +4,19 @@ import appstore from '../assets/appstore.png'
 import twitter from '../assets/twitter.png'
 import dribbble from '../assets/dribbble.png'
 import behance from '../assets/behance.png'
+import github from '../assets/github.png'
 
 const items = [{
     "title": "Website",
     "subtitle": "Look at my work!",
     "image": website,
     "link": "https://aritro.me"
+},
+{
+    "title": "GitHub",
+    "subtitle": "@aritropaul",
+    "image": github,
+    "link": "https://github.com/aritropaul"
 },
 {
     "title": "Instagram",
