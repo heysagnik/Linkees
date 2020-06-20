@@ -1,6 +1,7 @@
 import React from 'react';
 import Header from './components/Header'
 import Card from './components/Card'
+import Footer from './components/Footer'
 import items from './assets/items'
 
 import './css/skeleton.css'
@@ -12,9 +13,10 @@ function App() {
             <Header></Header>
             <div className = "container row">
                 {
-                    items.map((item) => {
+                    items.map((item, i) => {
                         return(
                             <Card
+                            i={i}
                             title={item.title}
                             subtitle={item.subtitle}
                             link={item.link}
@@ -24,6 +26,7 @@ function App() {
                     })
                 }
             </div>
+            <Footer></Footer>
         </div>
     );
 }

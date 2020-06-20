@@ -58,3 +58,15 @@ p {
     border-radius: 8px;
     height: 94px;
 }
+
+.Footer {
+    text-align: center;
+    font-size: x-small;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+
+.Footer>p {
+    font-weight: 600;
+}
