@@ -8,7 +8,7 @@ function Card(props) {
     return (
         <a href={props.link}>
             <div className = "Card four columns">
-                <img className = "cover" src = {props.cover}></img>
+                <img className = "cover" src = {props.cover} alt=""></img>
                 <div className="data">
                     <h2>{props.title}</h2>
                     <p>{props.subtitle}</p>
