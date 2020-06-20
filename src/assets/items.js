@@ -33,7 +33,7 @@ const items = [{
     "title": "Behance",
     "subtitle": "@aritropaul",
     "image": behance,
-    "link": "https://behance.com/aritropaul"
+    "link": "https://behance.net/aritropaul"
 },
 {
     "title": "Dribbble",
