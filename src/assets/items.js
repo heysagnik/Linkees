@@ -5,6 +5,7 @@ import twitter from '../assets/twitter.png'
 import dribbble from '../assets/dribbble.png'
 import behance from '../assets/behance.png'
 import github from '../assets/github.png'
+import linkedin from '../assets/linkedin.png'
 
 const items = [{
     "title": "Website",
@@ -47,6 +48,12 @@ const items = [{
     "subtitle": "@aritropaul",
     "image": dribbble,
     "link": "https://dribbble.com/aritropaul"
+},
+{
+    "title": "LinkedIn",
+    "subtitle": "@aritropaul",
+    "image": linkedin,
+    "link": "https://linkedin.com/in/aritropaul"
 }]
 
 export default items
