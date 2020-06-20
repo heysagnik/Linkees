@@ -6,7 +6,7 @@ import '../css/components.css'
 
 function Footer() {
     return (
-        <div className = "Footer">
+        <div className = "Footer container">
             <p>Made with <span role="img" aria-label="heart"> ❤️ </span>&nbsp; by Aritro Paul</p>
         </div>
     )

@@ -13,6 +13,7 @@ body {
 .row {
     align-items: center;
     margin-top: 8%;
+    margin-bottom: 5%;
 }
 
 a,
@@ -60,11 +61,8 @@ p {
 }
 
 .Footer {
-    text-align: center;
     font-size: x-small;
-    width: 100%;
-    position: absolute;
-    bottom: 0;
+    text-align: center;
 }
 
 .Footer>p {
