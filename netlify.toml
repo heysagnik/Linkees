@@ -1,6 +1,6 @@
 [[redirects]]
   from = "/symbols"
   to = "https://github.com/aritropaul/SFSymbolPicker"
-  status = 200
+  status = 302
   force = true
   headers = {X-From = "aritro.work"}
