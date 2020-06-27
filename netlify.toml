@@ -4,3 +4,11 @@
   status = 302
   force = true
   headers = {X-From = "aritro.work"}
+
+
+[[redirects]]
+  from = "/widget"
+  to = "https://github.com/aritropaul/WidgetKit-Example"
+  status = 302
+  force = true
+  headers = {X-From = "aritro.work"}
