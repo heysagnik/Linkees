@@ -12,3 +12,10 @@
   status = 302
   force = true
   headers = {X-From = "aritro.work"}
+
+[[redirects]]
+  from = "/widgetpost"
+  to = "https://aritro.me/blog/2020/06/Writing-A-SwiftUI-Widget.html"
+  status = 302
+  force = true
+  headers = {X-From = "aritro.work"}
