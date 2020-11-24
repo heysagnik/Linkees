@@ -5,55 +5,55 @@ import twitter from '../assets/twitter.png'
 import dribbble from '../assets/dribbble.png'
 import behance from '../assets/behance.png'
 import github from '../assets/github.png'
-import linkedin from '../assets/linkedin.png'
+import linkedin from '../assets/telegram.png'
 
 const items = [{
     "title": "Website",
     "subtitle": "Look at my work!",
     "image": website,
-    "link": "https://aritro.me"
+    "link": "#"
 },
 {
     "title": "GitHub",
-    "subtitle": "@aritropaul",
+    "subtitle": "@devgossips",
     "image": github,
-    "link": "https://github.com/aritropaul"
+    "link": "https://github.com/devgossips"
 },
 {
     "title": "Instagram",
-    "subtitle": "@not.a.coder",
+    "subtitle": "@virtuonic100",
     "image": instagram,
-    "link": "https://instagram.com/not.a.coder"
+    "link": "https://instagram.com/virtuonic100"
 },
 {
     "title": "Apps",
     "subtitle": "My App Store Page!",
     "image": appstore,
-    "link": "https://apps.apple.com/in/developer/aritro-paul/id1450075571"
+    "link": "#"
 },
 {
     "title": "Twitter",
-    "subtitle": "@aritrotwt",
+    "subtitle": "@devgossips",
     "image": twitter,
-    "link": "https://twitter.com/aritrotwt"
+    "link": "https://twitter.com/devgossips"
 },
 {
     "title": "Behance",
-    "subtitle": "@aritropaul",
+    "subtitle": "@devgossipz",
     "image": behance,
-    "link": "https://behance.net/aritropaul"
+    "link": "https://behance.net/devgossips"
 },
 {
     "title": "Dribbble",
-    "subtitle": "@aritropaul",
+    "subtitle": "@virtuonic",
     "image": dribbble,
-    "link": "https://dribbble.com/aritropaul"
+    "link": "https://dribbble.com/virtuonic"
 },
 {
-    "title": "LinkedIn",
-    "subtitle": "@aritropaul",
-    "image": linkedin,
-    "link": "https://linkedin.com/in/aritropaul"
+    "title": "Telegram",
+    "subtitle": "@virtuonic",
+    "image": telegram,
+    "link": "https://t.me/virtuonic"
 }]
 
 export default items
