@@ -9,6 +9,27 @@ body {
     font-weight: 600;
     color: rgb(240, 240, 240);
 }
+.profile {
+    border-radius: 50%;
+    width: 90px;
+}
+
+.username {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.username a {
+    color: #bbb;
+    font-size: 1rem;
+    font-weight: 600;
+    font-family: 'Karla', Helvetica, sans-serif;
+}
+
+.userName a:hover {
+    color: #000;
+}
 .row {
     align-items: center;
     margin-top: 5%;
