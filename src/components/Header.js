@@ -17,8 +17,8 @@ function Header() {
                 <button>
                     <feather className="icons sun"></feather>
                 </button>
-            </div> 
-        </div>*/}
+            </div>*/}
+        </div>
     )
 }
 
