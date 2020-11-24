@@ -8,7 +8,7 @@ function Header() {
     return (
         <div className = "Header container">
             <div className = "ten columns">
-                aritro's links
+                sagnik's links
             </div>
             {/* <div className = "two columns">
                 <button>
