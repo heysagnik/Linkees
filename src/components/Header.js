@@ -13,12 +13,12 @@ function Header() {
             </div>
            
             
-            <div className = "two columns">
+            {/*<div className = "two columns">
                 <button>
                     <feather className="icons sun"></feather>
                 </button>
             </div> 
-        </div>
+        </div>*/}
     )
 }
 
