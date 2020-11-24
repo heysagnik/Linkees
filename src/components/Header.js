@@ -2,8 +2,8 @@ import React from 'react'
 
 import '../css/skeleton.css'
 import '../css/normalize.css'
-import '../css/components.css';
-import ''
+import '../css/components.css'
+
 function Header() {
     return (
         <div className = "Header container">
