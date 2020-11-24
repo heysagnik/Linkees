@@ -1,6 +1,6 @@
 import website from '../assets/website.png'
 import instagram from '../assets/instagram.png'
-import appstore from '../assets/images.png'
+import appstore from '../assets/IMG_20201124_112759.png'
 import youtube from '../assets/yt_logo_rgb_light.png'
 import dribbble from '../assets/dribbble.png'
 import github from '../assets/github.png'
@@ -20,7 +20,7 @@ const items = [{
 },
 {
     "title": "Instagram",
-    "subtitle": "@virtuonic100 |",
+    "subtitle": "@virtuonic100 | Hub of my awesome 😎pics",
     "image": instagram,
     "link": "https://instagram.com/virtuonic100"
 },
