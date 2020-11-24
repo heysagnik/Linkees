@@ -3,7 +3,6 @@ import instagram from '../assets/instagram.png'
 import appstore from '../assets/appstore.jpeg'
 import twitter from '../assets/twitter.png'
 import dribbble from '../assets/dribbble.png'
-import behance from '../assets/behance.png'
 import github from '../assets/github.png'
 import linkedin from '../assets/telegram.png'
 
@@ -37,12 +36,7 @@ const items = [{
     "image": twitter,
     "link": "https://twitter.com/devgossips"
 },
-{
-    "title": "Behance",
-    "subtitle": "@devgossipz",
-    "image": behance,
-    "link": "https://behance.net/devgossips"
-},
+
 {
     "title": "Dribbble",
     "subtitle": "@virtuonic",
