@@ -11,7 +11,7 @@ function Header() {
              . sagnik
             </div>
            <div>
-           <img className={style.profile} src="https://avatars0.githubusercontent.com/u/28679360?s=460&u=043e532cfc62169437853995504c073352eca53f&v=4" alt="Imanol Suarez Foto" />
+           <img className={style.profile} src="https://avatars0.githubusercontent.com/u/28679360?s=460&u=043e532cfc62169437853995504c073352eca53f&v=4" align ="center" alt="Sagnik Sahoo" style="height:96px; width:96px;"/>
             <p className={style.username}>
             Hi👋
             </p>
