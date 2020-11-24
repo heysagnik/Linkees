@@ -4,7 +4,7 @@ import appstore from '../assets/appstore.jpeg'
 import twitter from '../assets/twitter.png'
 import dribbble from '../assets/dribbble.png'
 import github from '../assets/github.png'
-import linkedin from '../assets/telegram.png'
+import telegram from '../assets/telegram.png'
 
 const items = [{
     "title": "Website",
