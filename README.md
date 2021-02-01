@@ -1,6 +1,6 @@
 # Links : A beautiful Single Page Application made with React (Alternative to linktr.ee)
 
-[![Generic badge](https://img.shields.io/badge/ Build Success /-<COLOR>.svg)](https://bio.devgossips.vercel.app/)
+[![Generic badge](https://img.shields.io/badge/Build-Success/-<COLOR>.svg)](https://bio.devgossips.vercel.app/)
 
 ## How to use
 1. Fork the Repo
