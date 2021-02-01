@@ -9,4 +9,4 @@
 4. Add your Banners in assets, or use mine
 5. Deploy to Render and Profit!
 
-[![Generic badge](https://img.shields.io/badge/<DEMO>-<Success>-<COLOR>.svg)](https://bio.devgossips.vercel.app/)
+[![Generic badge](https://img.shields.io/badge/LIVE-DEMO-<COLOR>.svg)](https://bio.devgossips.vercel.app/)
