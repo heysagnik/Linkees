@@ -1,6 +1,8 @@
 # Links : A beautiful Single Page Application made with React (Alternative to linktr.ee)
 
-[![Generic badge](https://img.shields.io/badge/Build-Success-<COLOR>.svg)](https://vercel.com/devgossips/bio/deployments)
+[![Generic badge](https://img.shields.io/badge/Build-Success-<COLOR>.svg)](https://vercel.com/devgossips/bio/deployments) 
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https%3A%2F%2Fgithub.com%2Fdevgossips%2Flinktree)
 
 ## How to use
 1. Fork the Repo
