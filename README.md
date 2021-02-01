@@ -1,6 +1,6 @@
 # Links : A beautiful Single Page Application made with React (Alternative to linktr.ee)
 
-[![Generic badge](https://img.shields.io/badge/<Build>-<Success>-<COLOR>.svg)](https://bio.onrender.com/)
+[![Generic badge](https://img.shields.io/badge/(Build)-(Success)/-<COLOR>.svg)](https://bio.devgossips.vercel.app/)
 
 ## How to use
 1. Fork the Repo
@@ -9,4 +9,4 @@
 4. Add your Banners in assets, or use mine
 5. Deploy to Render and Profit!
 
-[![Generic badge](https://img.shields.io/badge/<DEMO>-<Success>-<COLOR>.svg)](https://bio.onrender.com/)
+[![Generic badge](https://img.shields.io/badge/<DEMO>-<Success>-<COLOR>.svg)](https://bio.devgossips.vercel.app/)
