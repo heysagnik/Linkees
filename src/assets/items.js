@@ -5,12 +5,13 @@ import youtube from '../assets/images (3).jpeg'
 import dribbble from '../assets/dribbble.png'
 import github from '../assets/github.png'
 import telegram from '../assets/IMG_20201124_104554.png'
+import twitter from '.. /assets/Twitter.png'
 
 const items = [{
     "title": "Website",
     "subtitle": "Look at my work!",
     "image": website,
-    "link": "#"
+    "link": "sagniksahoo.me"
 },
 {
     "title": "GitHub",
@@ -20,9 +21,15 @@ const items = [{
 },
 {
     "title": "Instagram",
-    "subtitle": "@virtuonic100 | Hub of my awesome 😎pics",
+    "subtitle": "@heysagnik | Hub of my awesome 😎pics",
     "image": instagram,
-    "link": "https://instagram.com/virtuonic100"
+    "link": "https://instagram.com/heysagnik"
+},
+{
+    "title": "Twitter",
+    "subtitle": "@heysagnik | Don't forget to follow me😉",
+    "image": twitter,
+    "link": "https://twitter.com/heysagnik"
 },
 {
     "title": "Apps",
