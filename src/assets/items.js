@@ -5,7 +5,7 @@ import youtube from '../assets/images (3).jpeg'
 import dribbble from '../assets/dribbble.png'
 import github from '../assets/github.png'
 import telegram from '../assets/IMG_20201124_104554.png'
-import twitter from '.. /assets/twitter.png'
+import twitter from '../assets/twitter.png'
 
 const items = [{
     "title": "Website",
