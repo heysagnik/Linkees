@@ -6,8 +6,8 @@ import '../css/components.css'
 
 function Footer() {
     return (
-        <div className = "Footer container">
-            <p>Made with <span role="img" aria-label="heart"> ❤️ </span>&nbsp; by Sagnik Sahoo</p>
+        <div className="Footer container">
+            <p>Made with <span role="img" aria-label="heart"> ❤️ </span>&nbsp; by <a href={"https://github.com/devgossips"}>Sagnik Sahoo</a></p>
         </div>
     )
 }
