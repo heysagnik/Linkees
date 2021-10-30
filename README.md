@@ -4,7 +4,7 @@
 
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https%3A%2F%2Fgithub.com%2Fdevgossips%2Flinktree)
 
-<img src = "https://github.com/devgossips/linktree/blob/master/-qd5JDmJEeyihAJCrBEAAg.png?raw=true"/>
+<img src = "https://github.com/devgossips/linktree/blob/master/bio-devgossips-vercel-app-1024xFULLdesktop-c86b59.jpg?raw=true"/>
 
 ## How to use
 1. Fork the Repo
@@ -13,4 +13,4 @@
 4. Add your Banners in assets, or use mine
 5. Deploy to Vercel and Profit!
 
-[![Generic badge](https://img.shields.io/badge/LIVE-DEMO-<COLOR>.svg?style=for-the-badge&logo=Chrome)](https://bio.devgossips.vercel.app/)
+[![Generic badge](https://img.shields.io/badge/LIVE-DEMO-<COLOR>.svg](https://bio.devgossips.vercel.app/)
