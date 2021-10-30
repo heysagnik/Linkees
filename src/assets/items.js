@@ -6,6 +6,7 @@ import dribbble from '../assets/dribbble.png'
 import github from '../assets/github.png'
 import telegram from '../assets/IMG_20201124_104554.png'
 import twitter from '../assets/twitter.png'
+import facebook from '../assets/facebook.png'
 
 const items = [{
     "title": "Website",
@@ -55,6 +56,12 @@ const items = [{
     "subtitle": "@virtuonic | Chat with me instantly, Don't hesitate! ",
     "image": telegram,
     "link": "https://telegram.me/virtuonic"
+},
+{
+    "title": "Facebook",
+    "subtitle": "@virtuonic | Lets Chat and Group together! ",
+    "image": facebook,
+    "link": "#"
 }]
 
 export default items
