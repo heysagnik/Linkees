@@ -10,7 +10,7 @@ function Header() {
             <div className = "ten columns">
             <img src="https://avatars.githubusercontent.com/u/70798495?v=4" alt="logo" />
   &nbsp;&nbsp;&nbsp;
-            Sagnik 
+            <h2>Sagnik </h2>
            
             </div>
            
