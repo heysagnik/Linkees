@@ -9,6 +9,12 @@ body {
     font-weight: 600;
     color: rgb(240, 240, 240);
 }
+
+.img {
+
+  border-radius: 10%;
+
+}
 .row {
     align-items: center;
     margin-top: 5%;
