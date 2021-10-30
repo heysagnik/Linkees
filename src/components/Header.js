@@ -8,7 +8,7 @@ function Header() {
     return (
         <div className = "Header container">
             <div className = "ten columns">
-            <img style="display: inline" src="https://avatars.githubusercontent.com/u/70798495?v=4" alt="logo" />
+            <img src="https://avatars.githubusercontent.com/u/70798495?v=4" alt="logo" />
   
              Sagnik
            
