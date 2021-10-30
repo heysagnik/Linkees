@@ -21,19 +21,19 @@ const items = [{
 },
 {
     "title": "Instagram",
-    "subtitle": "@heysagnik | Hub of my awesome 😎pics",
+    "subtitle": "@heysagnik | Hub of my awesome 😎 pics",
     "image": instagram,
     "link": "https://instagram.com/heysagnik"
 },
 {
     "title": "Twitter",
-    "subtitle": "@heysagnik | Don't forget to follow me😉",
+    "subtitle": "@heysagnik | Don't forget to follow me 😉",
     "image": twitter,
     "link": "https://twitter.com/heysagnik"
 },
 {
     "title": "Apps",
-    "subtitle": "Hub of my awesome🔥 Apps",
+    "subtitle": "Hub of my awesome 🔥 Apps",
     "image": appstore,
     "link": "#"
 },
