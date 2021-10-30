@@ -12,7 +12,9 @@ body {
 
 img {
   width: 50px;
+  overflow: hidden;
 
+  margin-top: -6px;
   height: 50px;
   border-radius: 75%;
 
