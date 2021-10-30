@@ -9,8 +9,8 @@ function Header() {
         <div className = "Header container">
             <div className = "ten columns">
             <img src="https://avatars.githubusercontent.com/u/70798495?v=4" alt="logo" />
-  
-            <h4> Sagnik </h4>
+  &nbsp;&nbsp;&nbsp;
+            Sagnik 
            
             </div>
            
