@@ -1,5 +1,5 @@
 import React from 'react'
-
+import logo from '../assets/logo.png'
 import '../css/skeleton.css'
 import '../css/normalize.css'
 import '../css/components.css'
@@ -8,9 +8,9 @@ function Header() {
     return (
         <div className = "Header container">
             <div className = "ten columns">
-            <img src="https://avatars.githubusercontent.com/u/70798495?v=4" alt="logo" />
+            <img src={logo} alt="logo" />
   &nbsp;&nbsp;&nbsp;
-            <h2>Sagnik </h2>
+            <h2><b>Sagnik </b></h2>
            
             </div>
            
