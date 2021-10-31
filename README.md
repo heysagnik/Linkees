@@ -1,4 +1,4 @@
-# Links : A beautiful Single Page Application made with React (Alternative to linktr.ee)
+# Links : An Awesome Single Page Application made with React (Alternative to linktr.ee)
 
 [![Generic badge](https://img.shields.io/badge/Build-Success-<COLOR>.svg)](https://vercel.com/devgossips/bio/deployments) 
 
