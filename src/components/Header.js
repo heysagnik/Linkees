@@ -5,7 +5,7 @@ import '../css/normalize.css'
 import '../css/components.css'
 
 function Header() {
-    return (
+    return (          // we can use a navbar that is imp part of any wesite or app
         <div className = "Header container">
             <div className = "ten columns">
             <img src="https://avatars.githubusercontent.com/u/70798495?v=4" alt="logo" />
