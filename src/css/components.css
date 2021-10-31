@@ -12,11 +12,11 @@ body {
 
 img {
   width: 46px;
-  display: inline;
   height: 46px;
   border-radius: 75%;
-
+  margin-top: 10px;
 }
+
 .row {
     align-items: center;
     margin-top: 5%;
@@ -49,9 +49,10 @@ a:hover {
 h2 {
     font-size: 140%;
     font-weight: 500;
-    margin-bottom: 0;
+    margin-bottom: 10px;
     letter-spacing: 1px;
     display: inline;
+    
 }
 
 p {

@@ -11,15 +11,9 @@ function Header() {
             <img src={logo} alt="logo" />
   &nbsp;&nbsp;&nbsp;
             <h2><b>Sagnik </b></h2>
-           
+        
             </div>
            
-            
-            {/*<div className = "two columns">
-                <button>
-                    <feather className="icons sun"></feather>
-                </button>
-            </div>*/}
         </div>
     )
 }
