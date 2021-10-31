@@ -1,10 +1,10 @@
 import website from '../assets/website.png'
 import instagram from '../assets/instagram.png'
-import appstore from '../assets/IMG_20201124_112759.png'
-import youtube from '../assets/images (3).jpeg'
+import appstore from '../assets/playstore.png'
+import youtube from '../assets/youtube.jpeg'
 import dribbble from '../assets/dribbble.png'
 import github from '../assets/github.png'
-import telegram from '../assets/IMG_20201124_104554.png'
+import telegram from '../assets/telegram.png'
 import twitter from '../assets/twitter.png'
 
 const items = [{
