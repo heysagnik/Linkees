@@ -1,13 +1,13 @@
 body[data-theme='dark'] {
   --font-color: rgb(240, 240, 240);
   --background-color: rgb(10, 10, 10);
-  --background-color: rgba(255, 255, 255, 0.12);
+  --card-hover-bg: rgba(255, 255, 255, 0.12);
 }
 
 body[data-theme='light'] {
   --font-color: rgb(10, 10, 10);
   --background-color: rgb(240, 240, 240);
-  --background-color: rgba(0, 0, 0, 0.12);
+  --card-hover-bg: rgba(0, 0, 0, 0.12);
 }
 
 body {
@@ -66,7 +66,7 @@ a:hover {
 }
 
 .Card:hover {
-  background: rgba(255, 255, 255, 0.12);
+  background: var(--card-hover-bg);
   border: 1px solid hsla(0, 0%, 87.8%, 0);
 }
 
