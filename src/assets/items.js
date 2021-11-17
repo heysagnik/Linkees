@@ -54,7 +54,7 @@ const items = [{
     "title": "Telegram",
     "subtitle": "@virtuonic | Chat with me instantly, Don't hesitate! ",
     "image": telegram,
-    "link": "https://telegram.me/virtuonic" //Telegram Pofile 
+    "link": "https://telegram.me/heysagnik" //Telegram Pofile 
 }]
 
 export default items
