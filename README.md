@@ -20,7 +20,7 @@
 ## Contributing
 We always welcome contributions; big or small, it can be documentation updates, adding new checks or something bigger. Please check the Contributing Guide for details on how to help out.
 
-## 🙏🏽 Thanks to Some People who have contributed
+## :pray: Special Thanks to those People who have contributed 
 
-<a><img width="150px" src="https://contrib.rocks/image?repo=devgossips/linktree" /></a>
+<img width="150px" src="https://contrib.rocks/image?repo=devgossips/linktree" />
 
