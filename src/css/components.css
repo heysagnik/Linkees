@@ -101,6 +101,10 @@ p {
   text-align: center;
 }
 
+.heart{
+  color:#e25555;
+}
+
 .Footer > p {
   font-weight: 600;
 }
