@@ -4,7 +4,7 @@
 
 
 
-![preview](https://user-images.githubusercontent.com/70798495/139570712-a6641781-9bee-4702-8100-0e5a8bb1efb1.jpg)
+![Screenshot](https://api.microlink.io/?url=https://bio.devgossips.vercel.app&screenshot=true&meta=false&embed=screenshot.url&waitForTimeout=1500&type=jpeg&overlay.browser=dark&overlay.background=linear-gradient%28225deg%2C+%23FF057C+0%25%2C+%238D0B93+50%25%2C+%23321575+100%25%29)
 
 
 ## How to use
@@ -22,5 +22,5 @@ We always welcome contributions; big or small, it can be documentation updates, 
 
 ## :pray: Special Thanks to those People who have contributed 
 
-<img width="150px" src="https://contrib.rocks/image?repo=devgossips/linktree" />
+<img width="170px" src="https://contrib.rocks/image?repo=devgossips/linktree" />
 
