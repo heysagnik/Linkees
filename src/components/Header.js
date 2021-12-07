@@ -1,7 +1,7 @@
 import React from 'react'
 import SunIcon from './Icons/SunIcon'
 import MoonIcon from './Icons/MoonIcon'
-import logo from '../assets/logo.png'
+import logo from '../assets/Upstream-8.png'
 import '../css/skeleton.css'
 import '../css/normalize.css'
 import '../css/components.css'
