@@ -109,14 +109,6 @@ p {
   font-weight: 600;
 }
 
-.switch-theme-button {
-  color: var(--font-color);
-  width: auto;
-  padding: 12px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
 
 .switch-theme-button {
   background-color: #c2fbd7;
