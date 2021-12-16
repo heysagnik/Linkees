@@ -23,7 +23,7 @@ function Card(props) {
     }
 
     return (
-        <a href={props.link}>
+        <a href={props.link} target="_blank" rel="noopener noreferrer">
             <motion.div className = "Card four columns"
                 initial="hidden"
                 animate="visible"
