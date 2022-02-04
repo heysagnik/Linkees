@@ -1,0 +1,135 @@
+body[data-theme='dark'] {
+  --font-color: rgb(240, 240, 240);
+  --background-color: rgb(10, 10, 10);
+  --card-hover-bg: rgba(255, 255, 255, 0.12);
+}
+
+body[data-theme='light'] {
+  --font-color: rgb(10, 10, 10);
+  --background-color: rgb(240, 240, 240);
+  --card-hover-bg: rgba(0, 0, 0, 0.12);
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans',
+    'Helvetica Neue', sans-serif;
+  background-color: var(--background-color);
+  color: var(--font-color);
+  transition-property: color, background-color;
+  transition-duration: 200ms;
+  transition-timing-function: ease-in-out;
+}
+
+.Header {
+  padding: 2%;
+  font-weight: 600;
+  color: var(--font-color);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Header__inner {
+  display: flex;
+  align-items: center;
+}
+
+.Header__inner h2 {
+  margin: 0;
+}
+
+img {
+  width: 46px;
+  height: 46px;
+  border-radius: 75%;
+  margin-top: 10px;
+}
+
+.row {
+  align-items: center;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+a,
+a:hover {
+  text-decoration: none;
+  color: var(--font-color);
+}
+
+.Card {
+  margin-top: 5%;
+  margin-right: 2%;
+  padding: 8px;
+  border-radius: 8px;
+  height: 200px;
+}
+
+.Card:hover {
+  background: var(--card-hover-bg);
+  border: 1px solid hsla(0, 0%, 87.8%, 0);
+}
+
+.data {
+  margin-top: 5px;
+}
+
+h2 {
+  font-size: 140%;
+  font-weight: 500;
+  margin-bottom: 10px;
+  letter-spacing: 1px;
+  display: inline;
+}
+
+p {
+  font-size: 100%;
+  font-weight: 400;
+  color: rgb(70, 70, 70);
+  margin-bottom: 5px;
+}
+
+.cover {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 8px;
+  height: 94px;
+}
+
+.Footer {
+  font-size: small;
+  text-align: center;
+}
+
+.heart{
+  color:#db2929;
+}
+
+.Footer > p {
+  font-weight: 600;
+}
+
+
+.switch-theme-button {
+  background-color: #c2fbd7;
+  border-radius: 100px;
+  box-shadow: rgba(44, 187, 99, .2) 0 -25px 18px -14px inset,rgba(44, 187, 99, .15) 0 1px 2px,rgba(44, 187, 99, .15) 0 2px 4px,rgba(44, 187, 99, .15) 0 4px 8px,rgba(44, 187, 99, .15) 0 8px 16px,rgba(44, 187, 99, .15) 0 16px 32px;
+  color: green;
+  cursor: pointer;
+  display: flex;
+  font-family: CerebriSans-Regular,-apple-system,system-ui,Roboto,sans-serif;
+  padding: 7px 20px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 250ms;
+  border: 0;
+  font-size: 16px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.switch-theme-button {
+  box-shadow: rgba(44,187,99,.35) 0 -25px 18px -14px inset,rgba(44,187,99,.25) 0 1px 2px,rgba(44,187,99,.25) 0 2px 4px,rgba(44,187,99,.25) 0 4px 8px,rgba(44,187,99,.25) 0 8px 16px,rgba(44,187,99,.25) 0 16px 32px;
+  transform: scale(1.05) rotate(-1deg);
+}
