@@ -18,7 +18,7 @@ function Header() {
   return (
     <div className="Header container">
       <div className="ten columns Header__inner">
-        <img src={avatar} alt="logo" />
+        <img src={avatar} alt="avatar" />
         &nbsp;&nbsp;&nbsp;
         <h2>
           <b>Sagnik </b>
