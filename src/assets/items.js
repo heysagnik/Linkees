@@ -11,13 +11,13 @@ const items = [{
     "title": "Website",
     "subtitle": "Look at my work!",
     "image": website,
-    "link": "https://sagniksahoo.me" //your personal website or portfolio  link
+    "link": "https://sagniksahoo.codes" //your personal website or portfolio  link
 },
 {
     "title": "GitHub",
-    "subtitle": "@devgossips | 🏠 of my open-source projects",
+    "subtitle": "@heysagnik | 🏠 of my open-source projects",
     "image": github,
-    "link": "https://github.com/devgossips" //Github Profile link
+    "link": "https://github.com/heysagnik" //Github Profile link
 },
 {
     "title": "Instagram",
@@ -39,7 +39,7 @@ const items = [{
 },
 {
     "title": "YouTube",
-    "subtitle": "@Sagnik Sahoo | Official channel of mine",
+    "subtitle": "CODER SAGNIK | Official channel of mine",
     "image": youtube,
     "link": "https://www.youtube.com/channel/UCOUa9hvd4sJWQWQRIQctbSg"//youtube channel link 
 },
@@ -52,7 +52,7 @@ const items = [{
 },
 {
     "title": "Telegram",
-    "subtitle": "@virtuonic | Chat with me instantly, Don't hesitate! ",
+    "subtitle": "@heysagnik | Chat with me instantly, Don't hesitate! ",
     "image": telegram,
     "link": "https://telegram.me/heysagnik" //Telegram Pofile 
 }]
