@@ -1,5 +1,6 @@
 import website from '../assets/website.png'
 import instagram from '../assets/instagram.png'
+import whatsapp from '../assets/whatsapp.png'
 import appstore from '../assets/playstore.png'
 import youtube from '../assets/youtube.jpeg'
 import dribbble from '../assets/dribbble.png'
@@ -12,6 +13,12 @@ const items = [{
     "subtitle": "Look at my work!",
     "image": website,
     "link": "https://sagniksahoo.codes" //your personal website or portfolio  link
+},
+{
+    "title": "Whatsapp",
+    "subtitle": "@heysagnik | 🏠 whatsapp demo",
+    "image": whatsapp,
+    "link": "https://api.whatsapp.com/send?phone=905555555555" //Whatsapp Api Send
 },
 {
     "title": "GitHub",
