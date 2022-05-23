@@ -1,6 +1,6 @@
 import website from '../assets/website.png'
 import instagram from '../assets/instagram.png'
-import appstore from '../assets/playstore.png'
+import linkedin from '../assets/linkedin.jpg'
 import youtube from '../assets/youtube.jpeg'
 import dribbble from '../assets/dribbble.png'
 import github from '../assets/github.png'
@@ -15,27 +15,27 @@ const items = [{
 },
 {
     "title": "GitHub",
-    "subtitle": "@heysagnik | 🏠 of my open-source projects",
+    "subtitle": "@heysagnik | 🏡 to all my open-source projects",
     "image": github,
     "link": "https://github.com/heysagnik" //Github Profile link
 },
 {
     "title": "Instagram",
-    "subtitle": "@heysagnik | Hub of my awesome 😎 pics",
+    "subtitle": "@heysagnik |  Shots of my life 🙂",
     "image": instagram,
     "link": "https://instagram.com/heysagnik" //instagram profile link 
 },
 {
     "title": "Twitter",
-    "subtitle": "@heysagnik | Don't forget to follow me 😉",
+    "subtitle": "@heysagnik | 😉",
     "image": twitter,
     "link": "https://twitter.com/heysagnik"// twitter profile link 
 },
 {
-    "title": "Apps",
-    "subtitle": "Hub of my awesome 🔥 Apps",
-    "image": appstore,
-    "link": "#"//
+    "title": "LinkedIn",
+    "subtitle": "Know more about my profession 👨‍💼",
+    "image": linkedin,
+    "link": "https://www.linkedin.com/in/heysagnik/" // linkedin
 },
 {
     "title": "YouTube",
@@ -46,13 +46,13 @@ const items = [{
 
 {
     "title": "Dribbble",
-    "subtitle": "@virtuonic | Hub to the Shots of my 😎 apps ",
+    "subtitle": "@virtuonic | shots of dezigns ",
     "image": dribbble,
     "link": "https://dribbble.com/virtuonic" // Dribbble profile link 
 },
 {
     "title": "Telegram",
-    "subtitle": "@heysagnik | Chat with me instantly, Don't hesitate! ",
+    "subtitle": "@heysagnik | Chat with me instantly ",
     "image": telegram,
     "link": "https://telegram.me/heysagnik" //Telegram Pofile 
 }]
