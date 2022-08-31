@@ -6,8 +6,9 @@ import dribbble from '../assets/dribbble.png'
 import github from '../assets/github.png'
 import telegram from '../assets/telegram.png'
 import twitter from '../assets/twitter.png'
+import { ItemType } from '../ts';
 
-const items = [{
+const items: ItemType[] = [{
     "title": "Website",
     "subtitle": "Look at my work!",
     "image": website,

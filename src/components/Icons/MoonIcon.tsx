@@ -1,4 +1,7 @@
-export default function MoonIcon(props) {
+import React from 'react';
+import { IIcon } from '../../ts';
+
+export default function MoonIcon(props: IIcon): JSX.Element {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -10,7 +13,7 @@ export default function MoonIcon(props) {
       stroke-width="2"
       stroke-linecap="round"
       stroke-linejoin="round"
-      class="feather feather-moon"
+      className="feather feather-moon"
       {...props}
     >
       <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
