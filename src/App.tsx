@@ -7,20 +7,20 @@ import items from './assets/items'
 import './css/skeleton.css'
 import './css/normalize.css'
 
-function App() {
+function App(): JSX.Element {
     return ( 
         <div className = "App" >
             <Header></Header>
             <div className = "container row">
                 {
-                    items.map((item, i) => {
+                    items.map((item, i: number) => {
                         return(
                             <Card
-                            i={i}
-                            title={item.title}
-                            subtitle={item.subtitle}
-                            link={item.link}
-                            cover={item.image}>
+                                i={i}
+                                title={item.title}
+                                subtitle={item.subtitle}
+                                link={item.link}
+                                cover={item.image}>
                             </Card>
                         )
                     })

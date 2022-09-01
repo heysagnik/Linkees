@@ -1,4 +1,7 @@
-export default function SunIcon(props) {
+import React from 'react';
+import { IIcon } from '../../ts';
+
+export default function SunIcon(props: IIcon): JSX.Element {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -10,7 +13,7 @@ export default function SunIcon(props) {
       stroke-width="2"
       stroke-linecap="round"
       stroke-linejoin="round"
-      class="feather feather-sun"
+      className="feather feather-sun"
       {...props}
     >
       <circle cx="12" cy="12" r="5"></circle>

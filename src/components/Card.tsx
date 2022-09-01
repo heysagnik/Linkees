@@ -4,11 +4,11 @@ import '../css/skeleton.css'
 import '../css/normalize.css'
 import '../css/components.css'
 import { motion } from "framer-motion"
+import { ICard } from '../ts/interfaces';
 
-function Card(props) {
-
+function Card(props: ICard): JSX.Element {
     const variants = {
-        visible: i => ({
+        visible: (i: number) => ({
             opacity: 1,
             y: 0,
             transition: {
@@ -29,7 +29,7 @@ function Card(props) {
                 animate="visible"
                 custom={props.i}
                 variants={variants}>
-                <img className = "cover" src = {props.cover} alt=""></img>
+                <img className ="cover" src={props.cover} alt=""></img>
                 <div className="data">
                     <h2>{props.title}</h2>
                     <p>{props.subtitle}</p>
@@ -39,4 +39,4 @@ function Card(props) {
     )
 }
 
-export default Card
+export default Card;
