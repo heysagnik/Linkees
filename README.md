@@ -31,5 +31,5 @@ We always welcome contributions; big or small, it can be documentation updates, 
 
 ### Special Thanks to those People who have contributed :
 
-<img width="50px" src="https://contrib.rocks/image?repo=devgossips/linktree" />
+<img width="70px" src="https://contrib.rocks/image?repo=heysagnik/Linkees" />
 
