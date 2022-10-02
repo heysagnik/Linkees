@@ -5,7 +5,7 @@
 </tr>
 </table>
 
-[![Generic badge](https://img.shields.io/badge/Build-Success-<COLOR>.svg)](https://vercel.com/devgossips/bio/deployments) [![Twitter URL](https://img.shields.io/twitter/url/https/twitter.com/heysagnik.svg?style=social&label=Follow%20%40heysagnik)](https://twitter.com/heysagnik)
+[![Generic badge](https://img.shields.io/badge/Build-Success-<COLOR>.svg)](https://vercel.com/heysagnik/bio/deployments) [![Twitter URL](https://img.shields.io/twitter/url/https/twitter.com/heysagnik.svg?style=social&label=Follow%20%40heysagnik)](https://twitter.com/heysagnik)
 
 ## About 🎯
  A beautiful Single Page Web App made with React to display all your important social links for your followers (Alternative to linktr.ee).
