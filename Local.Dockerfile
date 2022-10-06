@@ -1,4 +1,5 @@
-# Use this file to build for production
+# Local Dockerfile
+# Use this file to build for local
 
 # Get Node 14 Alpine Image
 FROM node:14-alpine
