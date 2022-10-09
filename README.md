@@ -29,13 +29,11 @@
 
 ### Running locally with Docker
 
-1. Rename `Dockerfile` to `Prod.Dockerfile`
-2. Rename `Local.Dockerfile` to `Dockerfile`
-3. Build the image
+1. Build the image
 
-    `docker build -t imagename .`
+    `docker build -t imagename . -f Local.Dockerfile`
 
-4. Finally, run your docker image
+2. Finally, run your docker image
 
    `docker run -p 3000:3000 --name appname -d imagename`
 
