@@ -1,5 +1,5 @@
 {
-  "name": "linktree",
+  "name": "linktree-example",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -7,6 +7,7 @@
     "@testing-library/react": "^12.1.2",
     "@testing-library/user-event": "^13.5.0",
     "framer-motion": "^4.1.17",
+    "linktree-test": "1.0.0-beta.1",
     "node": "^14.4.0",
     "react": "^17.0.2",
     "react-dom": "^16.13.1",

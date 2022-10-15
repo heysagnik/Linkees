@@ -1,5 +1,5 @@
 import React from 'react';
-import { IIcon } from '../../ts';
+import { IIcon } from '../../../ts';
 
 export default function SunIcon(props: IIcon): JSX.Element {
   return (
@@ -26,5 +26,5 @@ export default function SunIcon(props: IIcon): JSX.Element {
       <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
       <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
     </svg>
-  )
+  );
 }
