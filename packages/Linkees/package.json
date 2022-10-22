@@ -1,0 +1,56 @@
+{
+  "name": "linkees",
+  "version": "1.0.1",
+  "description": "A beautiful Single Page component made with React to display all your important social links for your followers (Alternative to linktr.ee).",
+  "main": "index.js",
+  "scripts": {
+    "clean": "rm -rf dist",
+    "build": "webpack",
+    "prettier-fix": "pretty-quick --staged",
+    "release": "./scripts/release.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/heysagnik/Linkees.git"
+  },
+  "keywords": [
+    "linktr.ee",
+    "linktree"
+  ],
+  "author": "Sagnik Sahoo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/heysagnik/Linkees/issues"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run prettier-fix"
+    }
+  },
+  "homepage": "https://github.com/heysagnik/Linkees#readme",
+  "devDependencies": {
+    "@babel/core": "^7.7.5",
+    "@babel/preset-env": "^7.7.6",
+    "@babel/preset-react": "^7.7.4",
+    "@babel/preset-typescript": "^7.18.6",
+    "@types/node": "^18.7.14",
+    "@types/react": "^18.0.18",
+    "babel-loader": "^8.0.6",
+    "css-loader": "^3.3.0",
+    "husky": "^4.2.3",
+    "prettier": "^2.5.1",
+    "pretty-quick": "^3.1.3",
+    "style-loader": "^1.0.1",
+    "ts-loader": "^9.4.1",
+    "typescript": "^4.8.2",
+    "webpack": "^5.72.0",
+    "webpack-cli": "^4.10.0"
+  },
+  "dependencies": {
+    "framer-motion": "^4.1.17",
+    "url-loader": "^4.1.1"
+  },
+  "peerDependencies": {
+    "react": "^16.0.0-0 || ^17.0.0-0 || ^18.0.0-0"
+  }
+}
