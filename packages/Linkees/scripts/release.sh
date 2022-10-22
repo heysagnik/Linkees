@@ -1,5 +1,5 @@
 #!/bin/sh
-package_name='linktree'
+package_name='linkees'
 
 npm run clean
 npm run build
@@ -23,7 +23,7 @@ fi
 npm version "$next_version" --allow-same-version
 cp package.json README.md ./dist
 git add . 
-git commit -m "upgrades $package_name to ${next_version}"
+# git commit -m "upgrades $package_name to ${next_version}"
 
 echo "Publishing $package_name ${next_version}"
 

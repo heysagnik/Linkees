@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { Linktree, CHANNEL_TYPES } from 'linktree-test';
+import { Linktree, CHANNEL_TYPES } from 'linkees';
 
 import './css/normalize.css';
 

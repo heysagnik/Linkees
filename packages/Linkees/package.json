@@ -1,8 +1,8 @@
 {
-  "name": "linktree-test",
-  "version": "1.0.0-beta.2",
+  "name": "linkees",
+  "version": "1.0.0",
   "description": "A beautiful Single Page component made with React to display all your important social links for your followers (Alternative to linktr.ee).",
-  "main": "./dist/index.js",
+  "main": "index.js",
   "scripts": {
     "clean": "rm -rf dist",
     "build": "webpack",
@@ -27,7 +27,6 @@
       "pre-commit": "npm run prettier-fix"
     }
   },
-  "exports": "./src",
   "homepage": "https://github.com/heysagnik/Linkees#readme",
   "devDependencies": {
     "@babel/core": "^7.7.5",
@@ -44,14 +43,14 @@
     "style-loader": "^1.0.1",
     "ts-loader": "^9.4.1",
     "typescript": "^4.8.2",
-    "webpack": "^5.40.0",
-    "webpack-cli": "^3.3.10"
+    "webpack": "^5.72.0",
+    "webpack-cli": "^4.10.0"
   },
   "dependencies": {
     "framer-motion": "^4.1.17",
     "url-loader": "^4.1.1"
   },
   "peerDependencies": {
-    "react": "^17.0.2"
+    "react": "^16.0.0-0 || ^17.0.0-0 || ^18.0.0-0"
   }
 }
