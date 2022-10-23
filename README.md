@@ -5,7 +5,7 @@
 </tr>
 </table>
 
-[![Generic badge](https://img.shields.io/badge/Build-Success-<COLOR>.svg)](https://vercel.com/heysagnik/bio/deployments) [![Twitter URL](https://img.shields.io/twitter/url/https/twitter.com/heysagnik.svg?style=social&label=Follow%20%40heysagnik)](https://twitter.com/heysagnik)
+[![Generic badge](https://img.shields.io/badge/BUILD-Success-<COLOR>.svg?logo=github)](https://vercel.com/heysagnik/bio/deployments) [![Twitter URL](https://img.shields.io/twitter/url/https/twitter.com/heysagnik.svg?style=social&label=Follow%20%40heysagnik)](https://twitter.com/heysagnik)
 
 ## About 🎯
  A beautiful Single Page Web App made with React to display all your important social links for your followers (Alternative to linktr.ee).
@@ -23,11 +23,12 @@
 
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https%3A%2F%2Fgithub.com%2Fheysagnik%2FLinkees)
 
+We also support ***Docker 🐳*** .For more details read [this](https://github.com/heysagnik/Linkees/blob/d15c73b40e140249aa58e7354b80e1ae7508ef9f/docker.md). 
 
 ## Contributing 📝
 We always welcome contributions; big or small, it can be documentation updates, adding new checks or something bigger. Please check the Contributing Guide for details on how to help out.
 
 ### Special Thanks to those People who have contributed :
 
-<img width="70px" src="https://contrib.rocks/image?repo=heysagnik/Linkees" />
+<img width="200" src="https://contrib.rocks/image?repo=heysagnik/Linkees" />
 
