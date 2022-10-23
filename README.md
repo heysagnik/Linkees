@@ -15,19 +15,19 @@ A beautiful Single Page Web App made with React to display all your important so
 
 ## How to use ?🤔
 
-install the linkees package
+1. Install the linkees package
 
 ```
 npm install --save linkees
 ```
 
-import linkees component from linkees package in your react app
+2. Import linkees component from linkees package in your react app
 
 ```
 import { Linkees } from 'linkees';
 ```
 
-Create a config for your links
+3. Create a config for your links
 
 ```
 [
@@ -41,21 +41,17 @@ Create a config for your links
 ]
 ```
 
-Example can be found in `src/index.tsx`
+> Example can be found in `src/index.tsx`
 
-Deploy to Vercel or any other platform and Enjoy!
+4. Deploy to Vercel or any other platform and Enjoy!
+  
+   [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fheysagnik%2FLinkees)
 
-<br>
-
-<br>
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https%3A%2F%2Fgithub.com%2Fheysagnik%2FLinkees)
-
-We also support ***Docker 🐳*** .For more details read [this](https://github.com/heysagnik/Linkees/blob/d15c73b40e140249aa58e7354b80e1ae7508ef9f/docker.md). 
+#### We also support ***Docker 🐳*** .For more details read [this](https://github.com/heysagnik/Linkees/blob/master/docker.md). 
 
 ## Contributing 📝
 We always welcome contributions; big or small, it can be documentation updates, adding new checks or something bigger. Please check the Contributing Guide for details on how to help out.
 
-### Special Thanks to those People who have contributed :
+#### Made with 💚 by Crazy Open-Source developers:
 
 <img width="200" src="https://contrib.rocks/image?repo=heysagnik/Linkees" />
