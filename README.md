@@ -8,17 +8,45 @@
 [![Generic badge](https://img.shields.io/badge/BUILD-Success-<COLOR>.svg?logo=github)](https://vercel.com/heysagnik/bio/deployments) [![Twitter URL](https://img.shields.io/twitter/url/https/twitter.com/heysagnik.svg?style=social&label=Follow%20%40heysagnik)](https://twitter.com/heysagnik)
 
 ## About 🎯
- A beautiful Single Page Web App made with React to display all your important social links for your followers (Alternative to linktr.ee).
+
+A beautiful Single Page Web App made with React to display all your important social links for your followers (Alternative to linktr.ee).
 
 ![Screenshot](https://api.microlink.io/?url=https://heysagnik.vercel.app&screenshot=true&meta=false&embed=screenshot.url&waitForTimeout=1500&type=jpeg&overlay.browser=dark&overlay.background=linear-gradient%28225deg%2C+%23FF057C+0%25%2C+%238D0B93+50%25%2C+%23321575+100%25%29)
 
-
 ## How to use ?🤔
-1. Fork🍴 & Star⭐ the Repo.
-2. Go to <code>assets/items.js</code> and add your own items and links
-3. Go to <code>public/index.html</code> and add your preferred title
-4. Add your Banners in <code>assets</code>, or use mine
-5. Deploy to Vercel or any other platform and Enjoy!
+
+install the linkees package
+
+```
+npm install --save linkees
+```
+
+import linkees component from linkees package in your react app
+
+```
+import { Linkees } from 'linkees';
+```
+
+Create a config for your links
+
+```
+[
+  {
+    title: //title of the link card
+    subtitle: //subtitle of the link card
+    link: //URL
+    channel: //use default channels
+    image: //card's custom image url
+  }
+]
+```
+
+Example can be found in `src/index.tsx`
+
+Deploy to Vercel or any other platform and Enjoy!
+
+<br>
+
 <br>
 
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https%3A%2F%2Fgithub.com%2Fheysagnik%2FLinkees)
@@ -31,4 +59,3 @@ We always welcome contributions; big or small, it can be documentation updates, 
 ### Special Thanks to those People who have contributed :
 
 <img width="200" src="https://contrib.rocks/image?repo=heysagnik/Linkees" />
-

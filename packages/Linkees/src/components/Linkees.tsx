@@ -8,10 +8,18 @@ import { ItemType } from '../ts';
 import { CHANNEL_TYPE_VS_COVER_IMAGE } from './constant';
 import { CHANNEL_TYPES } from '../constants';
 
-function Linktree({ headerAvatar, cardItems }: { headerAvatar?: string; cardItems: ItemType[] }): JSX.Element {
+function Linkees({
+  headerAvatar,
+  cardItems,
+  name,
+}: {
+  headerAvatar?: string;
+  cardItems: ItemType[];
+  name: string;
+}): JSX.Element {
   return (
     <div className="App">
-      <Header avatar={headerAvatar} />
+      <Header avatar={headerAvatar} name={name} />
       <div className="container row">
         {cardItems.map((item, i: number) => {
           const converImage: string =
@@ -24,4 +32,4 @@ function Linktree({ headerAvatar, cardItems }: { headerAvatar?: string; cardItem
   );
 }
 
-export { Linktree };
+export { Linkees };
