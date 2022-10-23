@@ -6,7 +6,7 @@ import '../../css/skeleton.css';
 import '../../css/components.css';
 import { ThemeType } from '../../ts/types';
 
-function Header({ avatar }: { avatar?: string }): JSX.Element {
+function Header({ avatar, name }: { avatar?: string; name: string }): JSX.Element {
   const dataTheme = document.body.getAttribute('data-theme');
   const [theme, setTheme] = React.useState<ThemeType>((): ThemeType => (dataTheme === 'light' ? 'light' : 'dark'));
 
@@ -26,7 +26,7 @@ function Header({ avatar }: { avatar?: string }): JSX.Element {
         <img src={avatar ?? defaultAvatar} alt="avatar" />
         &nbsp;&nbsp;&nbsp;
         <h2>
-          <b>Sagnik. </b>
+          <b>{name}</b>
         </h2>
       </div>
       <button className="switch-theme-button" onClick={handleSwitchTheme}>
