@@ -109,7 +109,6 @@ p {
   font-weight: 600;
 }
 
-
 .switch-theme-button {
   background-color: #c2fbd7;
   border-radius: 100px;
@@ -135,15 +134,26 @@ p {
   transform: scale(1.05) rotate(-1deg);
 }
 
+/* styles for music player */
 .music-container {
   background-color: #fff;
   border-radius: 1rem;
-  /* box-shadow: 0 20px 20px 0 rgba(252, 169, 169, 0.6); */
   z-index: 10;
   max-width: 35rem;
-  position: absolute;
-  bottom: 0;
-  right: 0
+  position: fixed;
+  bottom: 2rem;
+  right: 1rem;
+  animation-duration: 1s;
+  animation-fill-mode: both;
+}
+
+.fade-in-bottom { animation-name: fadeInBottom }
+@keyframes fadeInBottom {
+    from {
+        opacity: 0;
+        transform: translateY(1);
+    }
+    to { opacity: 1 }
 }
 
 .music-wrapper {
@@ -158,8 +168,9 @@ p {
   width: 20px;
   position: absolute;
   left: 50%;
-  bottom: 50%;
+  bottom: 75%;
   transform: translate(-50%, -50%);
+  border-radius: 1rem;
 }
 
 .img-container {
@@ -230,23 +241,9 @@ p {
 
 .music-info h4 {
   margin: 0;
-}
-
-.progress-container {
-  background: #fff;
-  border-radius: 5px;
-  cursor: pointer;
-  margin: 10px 0;
-  height: 4px;
-  width: 100%;
-}
-
-.progress {
-  background-color: #fe8daa;
-  border-radius: 5px;
-  height: 100%;
-  width: 0%;
-  transition: width 0.1s linear;
+  font-size: 2.5rem;
+  margin-left: 1rem;
+  font-weight: 400;
 }
 
 @keyframes rotate {
@@ -264,3 +261,5 @@ p {
   align-items: center;
   z-index: 1;
 }
+
+/* end of styles for music player */

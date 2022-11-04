@@ -8,7 +8,7 @@ import '../css/components.css'
 import { ThemeType } from '../ts/types';
 import { BiMusic } from 'react-icons/bi'
 
-function Header(): JSX.Element {
+function Header(props: any): JSX.Element {
   const dataTheme = document.body.getAttribute('data-theme');
   const [theme, setTheme] = React.useState<ThemeType>((): ThemeType => dataTheme === "light" ? "light" : 'dark');
 
@@ -22,26 +22,22 @@ function Header(): JSX.Element {
 
   const isDark = theme === 'dark'
 
-  const handleMusicComponent = () => {
-
-  }
-
   return (
-    <div className="Header container">
-      <div className="ten columns Header__inner">
-        <img src={avatar} alt="avatar" />
-        &nbsp;&nbsp;&nbsp;
-        <h2>
-          <b>Sagnik. </b>
-        </h2>
+      <div className="Header container">
+        <div className="ten columns Header__inner">
+          <img src={avatar} alt="avatar" />
+          &nbsp;&nbsp;&nbsp;
+          <h2>
+            <b>Sagnik. </b>
+          </h2>
+        </div>
+        <button className='music-btn' onClick={() => props.setView(!props.view)}>
+          <BiMusic fontSize="2.5rem"/>
+        </button>
+        <button className="switch-theme-button" onClick={handleSwitchTheme}>
+          {isDark ? <SunIcon color="white" /> : <MoonIcon  />}
+        </button>
       </div>
-      <button className='music-btn' onClick={handleMusicComponent}>
-        <BiMusic fontSize="2.5rem"/>
-      </button>
-      <button className="switch-theme-button" onClick={handleSwitchTheme}>
-        {isDark ? <SunIcon color="white" /> : <MoonIcon  />}
-      </button>
-    </div>
   )
 }
 

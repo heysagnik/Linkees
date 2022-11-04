@@ -9,9 +9,10 @@ import './css/normalize.css'
 import MusicPlayer from './components/MusicPlayer';
 
 function App(): JSX.Element {
+    const [view, setView] = React.useState(false)
     return ( 
         <div className = "App" >
-            <Header></Header>
+            <Header view={view} setView={setView}></Header>
             <div className = "container row">
                 {
                     items.map((item, i: number) => {
@@ -27,7 +28,7 @@ function App(): JSX.Element {
                     })
                 }
             </div>
-            <MusicPlayer/>
+            <MusicPlayer view={view}/>
             <Footer></Footer>
         </div>
     );
