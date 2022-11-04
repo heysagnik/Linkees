@@ -6,6 +6,7 @@ import '../css/skeleton.css'
 import '../css/normalize.css'
 import '../css/components.css'
 import { ThemeType } from '../ts/types';
+import { BiMusic } from 'react-icons/bi'
 
 function Header(): JSX.Element {
   const dataTheme = document.body.getAttribute('data-theme');
@@ -21,6 +22,10 @@ function Header(): JSX.Element {
 
   const isDark = theme === 'dark'
 
+  const handleMusicComponent = () => {
+
+  }
+
   return (
     <div className="Header container">
       <div className="ten columns Header__inner">
@@ -30,6 +35,9 @@ function Header(): JSX.Element {
           <b>Sagnik. </b>
         </h2>
       </div>
+      <button className='music-btn' onClick={handleMusicComponent}>
+        <BiMusic fontSize="2.5rem"/>
+      </button>
       <button className="switch-theme-button" onClick={handleSwitchTheme}>
         {isDark ? <SunIcon color="white" /> : <MoonIcon  />}
       </button>

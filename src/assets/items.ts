@@ -6,7 +6,13 @@ import dribbble from '../assets/dribbble.png'
 import github from '../assets/github.png'
 import telegram from '../assets/telegram.png'
 import twitter from '../assets/twitter.png'
-import { ItemType } from '../ts';
+
+import christmasMusic from '../music/a-very-happy-christmas.mp3'
+import yogaMusic from '../music/yoga-song.mp3'
+import christmasImg from '../assets/music/christmas.webp'
+import yogaImg from '../assets/music/yoga.jpg'
+
+import { ItemType, SongType } from '../ts';
 
 const items: ItemType[] = [{
     "title": "Website",
@@ -58,4 +64,17 @@ const items: ItemType[] = [{
     "link": "https://telegram.me/heysagnik" //Telegram Pofile 
 }]
 
-export default items
+const songs: SongType[] = [
+{
+    "title": "Christmas",
+    "audio": christmasMusic,
+    "image": christmasImg,
+},
+{
+    "title": "Yoga",
+    "audio": yogaMusic,
+    "image": yogaImg,
+}
+]
+
+export {items, songs}

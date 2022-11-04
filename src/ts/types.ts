@@ -5,3 +5,8 @@ export type ItemType = {
     image: string;
     link: string;
 }
+export type SongType = {
+    title: string;
+    audio: string;
+    image: string;
+}

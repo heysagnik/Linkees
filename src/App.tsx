@@ -2,10 +2,11 @@ import React from 'react';
 import Header from './components/Header'
 import Card from './components/Card'
 import Footer from './components/Footer'
-import items from './assets/items'
+import { items }from './assets/items'
 
 import './css/skeleton.css'
 import './css/normalize.css'
+import MusicPlayer from './components/MusicPlayer';
 
 function App(): JSX.Element {
     return ( 
@@ -26,6 +27,7 @@ function App(): JSX.Element {
                     })
                 }
             </div>
+            <MusicPlayer/>
             <Footer></Footer>
         </div>
     );
