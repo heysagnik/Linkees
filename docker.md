@@ -16,7 +16,21 @@
    docker run -p 3000:3000 --name appname -d imagename
    ```
 
-## Deploying with Docker
+## Deploying with public Docker image
+1. Pull image from the GitHub registry
+
+   ```bash
+   docker pull ghcr.io/heysagnik/Linkees:latest
+   ```
+
+2. Run the docker image
+
+   ```bash
+   docker run --network host --name linkees -d ghcr.io/heysagnik/Linkees:latest
+   ```
+
+
+## Deploying with custom Docker image
 
 > Ensure that your Dockerfile is the Production Dockerfile, check line 1 of both Dockerfiles to confirm.
 
