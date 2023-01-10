@@ -49,7 +49,7 @@ import { Linkees } from 'linkees';
 
 4. Deploy to Vercel or any other platform and Enjoy!
   
-   [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fheysagnik%2FLinkees&&install-command=npm install --legacy-peer-deps)
+   [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fheysagnik%2FLinkees&&install-command=npm%20install%20%20--legacy-peer-deps)
 
 #### We also support ***Docker 🐳*** .For more details read [this](https://github.com/heysagnik/Linkees/blob/master/docker.md). 
 
