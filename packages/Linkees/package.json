@@ -1,6 +1,6 @@
 {
   "name": "linkees",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A beautiful Single Page component made with React to display all your important social links for your followers (Alternative to linktr.ee).",
   "main": "index.js",
   "scripts": {

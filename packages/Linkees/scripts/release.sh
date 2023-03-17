@@ -20,10 +20,11 @@ if [[ $current_version = $next_version ]]; then
   echo "Successfully deleted older version"
 fi
 
-npm version "$next_version" --allow-same-version
-cp package.json README.md ./dist
+npm version "$next_version"
+cp package.json ./dist
+cp ../../README.md ./dist
 git add . 
-# git commit -m "upgrades $package_name to ${next_version}"
+git commit -m "upgrades $package_name to ${next_version}"
 
 echo "Publishing $package_name ${next_version}"
 
