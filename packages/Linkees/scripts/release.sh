@@ -32,4 +32,3 @@ cd dist
 npm publish
 echo "$package_name ${next_version} is successfully published."
 
-
