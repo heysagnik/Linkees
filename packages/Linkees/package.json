@@ -17,8 +17,8 @@
     "linktr.ee",
     "linktree"
   ],
-  "author": "Sagnik Sahoo",
-  "license": "ISC",
+  "author": "Sagnik Sahoo <sahoosagnik1@gmail.com>",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/heysagnik/Linkees/issues"
   },
