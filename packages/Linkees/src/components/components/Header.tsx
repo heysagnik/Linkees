@@ -30,7 +30,7 @@ function Header({ avatar, name }: { avatar?: string; name: string }): JSX.Elemen
         </h2>
       </div>
       <button className="switch-theme-button" onClick={handleSwitchTheme}>
-        {isDark ? <SunIcon color="white" /> : <MoonIcon />}
+        {isDark ? <SunIcon color="black" /> : <MoonIcon />}
       </button>
     </div>
   );
