@@ -1,12 +1,12 @@
-import React from 'react';
-import Header from './components/Header';
-import Card from './components/Card';
-import Footer from './components/Footer';
+import React from "react";
+import Header from "./components/Header";
+import Card from "./components/Card";
+import Footer from "./components/Footer";
 
-import { ItemType } from '../ts';
+import { ItemType } from "../ts";
 
-import { CHANNEL_TYPE_VS_COVER_IMAGE } from './constant';
-import { CHANNEL_TYPES } from '../constants';
+import { CHANNEL_TYPE_VS_COVER_IMAGE } from "./constant";
+import { CHANNEL_TYPES } from "../constants";
 
 function Linkees({
   headerAvatar,
@@ -22,9 +22,19 @@ function Linkees({
       <Header avatar={headerAvatar} name={name} />
       <div className="container row">
         {cardItems.map((item, i: number) => {
-          const converImage: string =
-            item.image ?? CHANNEL_TYPE_VS_COVER_IMAGE[item.type] ?? CHANNEL_TYPE_VS_COVER_IMAGE[CHANNEL_TYPES.WEBSITE];
-          return <Card i={i} title={item.title} subtitle={item.subtitle} link={item.link} cover={converImage} />;
+          const coverImage: string =
+            item.image ??
+            CHANNEL_TYPE_VS_COVER_IMAGE[item.type] ??
+            CHANNEL_TYPE_VS_COVER_IMAGE[CHANNEL_TYPES.WEBSITE];
+          return (
+            <Card
+              i={i}
+              title={item.title}
+              subtitle={item.subtitle}
+              link={item.link}
+              cover={coverImage}
+            />
+          );
         })}
       </div>
       <Footer />
