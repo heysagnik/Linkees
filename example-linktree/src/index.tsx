@@ -10,7 +10,7 @@ const items = [
     title: "Website",
     subtitle: "Look at my work!",
     type: CHANNEL_TYPES.WEBSITE,
-    link: "https://sagniksahoo.codes", //your personal website or portfolio  link
+    link: "https://sagnik-wtf.vercel.app", //your personal website or portfolio  link
   },
   {
     title: "GitHub",
@@ -61,7 +61,7 @@ const rootElement = document.getElementById("root");
 if (rootElement) {
   ReactDOM.createRoot(rootElement)?.render(
     <React.StrictMode>
-      <Linkees cardItems={items} name={"SAGNIK"} />{" "}
+      <Linkees cardItems={items} name={"Sagnik."} />{" "}
       {/* headerAvatar={'any image url'}*/}
     </React.StrictMode>
   );
