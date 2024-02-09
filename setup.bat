@@ -1,3 +1,4 @@
+
 @echo off
 set "zipUrl=https://github.com/heysagnik/Linkees/archive/refs/heads/old.zip"
 set "zipFile=old.zip"
@@ -16,9 +17,10 @@ powershell -command "Expand-Archive -Path .\%zipFile% -DestinationPath '.'"
 if exist %zipFile% (
     del %zipFile%
 )
-ren "Linkees-old" "Project"
-cd Project
+ren "Linkees-old" "Linkees"
+cd Linkees
 npm install
 
 
 echo "Set up is completed"
+
