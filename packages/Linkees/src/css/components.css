@@ -99,6 +99,7 @@ p {
 .Footer {
   font-size: small;
   text-align: center;
+  padding-bottom: 20px;
 }
 
 .heart {
