@@ -7,8 +7,12 @@ import '../../css/components.css';
 import { ThemeType } from '../../ts/types';
 
 function Header({ avatar, name }: { avatar?: string; name: string }): JSX.Element {
-  const dataTheme = document.body.getAttribute('data-theme');
-  const [theme, setTheme] = React.useState<ThemeType>((): ThemeType => (dataTheme === 'light' ? 'light' : 'dark'));
+  const [theme, setTheme] = React.useState<ThemeType>("light");
+
+  React.useEffect(() => {
+    const dataTheme = document.body.getAttribute('data-theme');
+    setTheme(dataTheme === 'light' ? 'light' : 'dark');
+  }, []);
 
   React.useEffect(() => {
     document.body.setAttribute('data-theme', theme);
