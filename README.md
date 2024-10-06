@@ -45,7 +45,9 @@ Create a config for your links
 ]
 ```
 
-Example can be found in `example-linktree/src/index.tsx`
+Example can be found in the file:
+<a href=https://github.com/heysagnik/Linkees/blob/master/example-linktree/src/index.tsx> Click here 
+</a>
 
 Deploy to Vercel or any other platform and Enjoy!
 
