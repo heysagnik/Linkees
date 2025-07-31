@@ -1,45 +1,37 @@
 import React from "react";
-import Header from "./components/Header";
-import Card from "./components/Card";
-import Footer from "./components/Footer";
+import { Header } from "./Header";
+import { Card } from "./Card";
+import { Footer } from "./Footer";
 
-import { ItemType } from "../ts";
+import { LinkeesProps } from "../types";
+import { getCoverImage } from "../utils";
 
-import { CHANNEL_TYPE_VS_COVER_IMAGE } from "./constant";
-import { CHANNEL_TYPES } from "../constants";
-
-function Linkees({
+export const Linkees: React.FC<LinkeesProps> = ({
   headerAvatar,
   cardItems,
   name,
-}: {
-  headerAvatar?: string;
-  cardItems: ItemType[];
-  name: string;
-}): JSX.Element {
+  theme = "dark",
+  showFooter = true,
+  customFooter,
+}) => {
   return (
-    <div className="App">
+    <div className="App" data-theme={theme}>
       <Header avatar={headerAvatar} name={name} />
       <div className="container row">
-        {cardItems.map((item, i: number) => {
-          const coverImage: string =
-            item.image ??
-            CHANNEL_TYPE_VS_COVER_IMAGE[item.type] ??
-            CHANNEL_TYPE_VS_COVER_IMAGE[CHANNEL_TYPES.WEBSITE];
-          return (
-            <Card
-              i={i}
-              title={item.title}
-              subtitle={item.subtitle}
-              link={item.link}
-              cover={coverImage}
-            />
-          );
-        })}
+        {cardItems.map((item, i: number) => (
+          <Card
+            key={`card-${i}-${item.title}`}
+            i={i}
+            title={item.title}
+            subtitle={item.subtitle}
+            link={item.link}
+            cover={getCoverImage(item)}
+          />
+        ))}
       </div>
-      <Footer />
+      {showFooter && (customFooter ? customFooter : <Footer />)}
     </div>
   );
-}
+};
 
-export { Linkees };
+export default Linkees;
