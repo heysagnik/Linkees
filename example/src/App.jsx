@@ -1,11 +1,8 @@
-import React from "react";
-import ReactDOM from "react-dom/client";
+import { Linkees, CHANNEL_TYPES } from "linkees";
+import "linkees/dist/style.css";
+import avatar from "./assets/avatar.jpeg";
 
-import Linkees, { CHANNEL_TYPES } from "linkees";
-
-import "./css/normalize.css";
-
-const items = [
+const cardItems = [
   {
     title: "Website",
     subtitle: "Look at my work!",
@@ -57,12 +54,8 @@ const items = [
   },
 ];
 
-const rootElement = document.getElementById("root");
-if (rootElement) {
-  ReactDOM.createRoot(rootElement)?.render(
-    <React.StrictMode>
-      <Linkees cardItems={items} name={"Sagnik."} />{" "}
-      {/* headerAvatar={'any image url'}*/}
-    </React.StrictMode>
-  );
+function App() {
+  return <Linkees name="Sagnik." cardItems={cardItems} headerAvatar={avatar} />;
 }
+
+export default App;

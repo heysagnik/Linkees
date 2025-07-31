@@ -1,8 +1,5 @@
 Linkees **Experimental** Branch 🔬💻
 
-> ⚠️ Warning <br/> <br/>
-> This branch of Linkees is for experimental purposes only and is not intended for production use. Most of the components in this branch are broken and may not function as expected.
-
 <table>
 <tr >
     <th><img src="https://s3.us-east-2.amazonaws.com/fueler.io-images/fueler-creatons/ZO3GUmNNWMJL8vuRQMQIDs7ConJCktJOOo0xTjgr.png" width="50px" height="50px" style="display:inline-block; "/></th>
@@ -23,13 +20,13 @@ A beautiful Single Page Web App made with React to display all your important so
 install the linkees package
 
 ```
-npm install --save linkees
+npm install linkees
 ```
 
 import Linkees component from linkees package in your react app
 
 ```
-import Linkees, { CHANNEL_TYPES } from "linkees";
+import {Linkees,CHANNEL_TYPES} from 'linkees';
 ```
 
 Create a config for your links
@@ -45,7 +42,17 @@ Create a config for your links
 ]
 ```
 
-Example can be found in `example-linktree/src/index.tsx`
+Example can be found in `example/src/App.jsx`
+
+Usage of the Linkees
+
+```
+  <Linkees
+      name="Sagnik."
+      cardItems={cardItems}
+      headerAvatar={avatar}
+    />
+```
 
 Deploy to Vercel or any other platform and Enjoy!
 
