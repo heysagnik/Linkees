@@ -1,3 +1,42 @@
-src
-.babelrc
+# Source files
+src/
+*.ts
+*.tsx
+!dist/**/*.d.ts
+
+# Build configuration
 webpack.config.js
+tsconfig.json
+jest.config.js
+babel.config.js
+
+# Development files
+.git/
+.gitignore
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Test files
+**/__tests__/
+**/*.test.*
+**/*.spec.*
+coverage/
+
+# Development scripts
+scripts/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp

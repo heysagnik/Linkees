@@ -26,13 +26,15 @@ if "%current_version%"=="%next_version%" (
 )
 
 call npm version "%next_version%"
-copy package.json dist\
-copy ..\..\README.md dist\
+
+REM Copy README.md to the package root for publishing
+copy ..\..\README.md .\
+
 git add .
 git commit -m "upgrades %package_name% to %next_version%"
 
 echo Publishing %package_name% %next_version%
 
-cd dist
+REM Publish from the package root (will only include files specified in "files" field)
 call npm publish
 echo %package_name% %next_version% is successfully published. 

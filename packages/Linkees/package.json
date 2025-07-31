@@ -1,12 +1,19 @@
 {
   "name": "linkees",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A beautiful Single Page component made with React to display all your important social links for your followers (Alternative to linktr.ee).",
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
   "types": "dist/index.d.ts",
   "files": [
-    "dist",
+    "dist/index.js",
+    "dist/index.esm.js",
+    "dist/index.d.ts",
+    "dist/style.css",
+    "dist/components/",
+    "dist/types/",
+    "dist/utils/",
+    "dist/*.LICENSE.txt",
     "README.md"
   ],
   "exports": {
